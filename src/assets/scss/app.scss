@@ -1,0 +1,131 @@
+@import 'settings';
+@import 'foundation-emails';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap');
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+td {
+  hyphens: none;
+  -moz-hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+}
+
+a,
+a:visited,
+a:hover {
+  color: #ffa400;
+}
+
+// <br class="mobile-hardbreak">
+
+h1 {
+  text-align: center;
+}
+
+.dark-blue {
+  color: #0092a7;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.message-body a {
+  text-decoration: underline;
+}
+
+a.telephone {
+  color: #737373;
+}
+
+.offer-card {
+  border: 1px solid #cccccc;
+  padding: 20px;
+}
+
+.offer-card p.title {
+  font-size: 12px;
+}
+
+.offer-card h2.plan {
+  color: #000;
+  font-size: 24px;
+}
+
+.shield-icon {
+  width: 30px;
+}
+
+.plan-details td {
+  vertical-align: middle;
+}
+
+.plan-details .plus {
+  color: #5865f5 !important;
+}
+
+p.fine-print {
+  font-size: 14px !important;
+}
+
+.show-column {
+  background: #e5e5e5;
+}
+
+table.button table td a {
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+table.button table td {
+  text-align: center !important;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0 !important;
+}
+
+.footer {
+  color: #737373;
+}
+
+.footer a {
+  font-size: 14px;
+  color: #737373;
+}
+
+.footer p {
+  font-size: 11px;
+}
+
+.mobile-hardbreak {
+  display: inline-block;
+  width: 10px;
+}
+
+
+
+@media only screen and (max-width: 670px) {
+  table.body .columns {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .mobile-hardbreak {
+    display: block;
+    height: 10px;
+  }
+
+  .your-plan-details {
+    border: 1px solid #cccccc;
+    padding: 20px;
+  }
+}
