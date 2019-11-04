@@ -48,7 +48,7 @@ a.telephone {
 
 .offer-card {
   border: 1px solid #cccccc;
-  padding: 20px;
+  padding: 20px 20px 5px 20px;
 }
 
 .offer-card p.title {
@@ -78,6 +78,10 @@ p.fine-print {
 
 .show-column {
   background: #e5e5e5;
+}
+
+.no-wrap {
+  white-space: nowrap;
 }
 
 table.button table td a {
